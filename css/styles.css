@@ -46,8 +46,10 @@ h3{
 .link-nav,
 .link-contact{
     text-decoration: none;
-    color: var(--SLATE);
+    color: var(--NAVY-BLUE)
     font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em
 }
 .link-contact:hover{
     color: var(--IRIS);
@@ -67,6 +69,11 @@ h3{
 .link{
     text-decoration: none;
 }
+.link:hover,
+.link:active{
+    color: var(--OCEAN);
+}
+
 .logo-nav span{
     color: var(--NAVY-BLUE);
 }

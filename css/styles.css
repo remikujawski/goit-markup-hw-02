@@ -59,7 +59,9 @@ h3{
     letter-spacing: 0.02em;
 }
 .link-contact:hover,
-.link-contact:active{
+.link-contact:active,
+.link-nav:hover,
+.link-nav:active{
     color: var(--OCEAN);
 }
 

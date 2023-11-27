@@ -43,17 +43,24 @@ h3{
 
 /* header & footers sections */
 
-.link-nav,
+
 .link-contact{
+    text-decoration: none;
+    color: var(--SLATE);
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.link-nav{
     text-decoration: none;
     color: var(--NAVY-BLUE);
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.02em;
-    
 }
-.link-contact:hover{
-    color: var(--IRIS);
+.link-contact:hover,
+.link-contact:active{
+    color: var(--OCEAN);
 }
 
 .logo-nav,

@@ -16,7 +16,8 @@ body{
     color: var(--SLATE);
 }
 
-li{
+
+.list{
     list-style: none;
 }
 
@@ -63,8 +64,7 @@ h3{
     text-decoration: none;
     color: var(--IRIS);
 }
-.logo-nav:link,
-.logo-footer:link{
+.link{
     text-decoration: none;
 }
 .logo-nav span{

@@ -1,6 +1,6 @@
 :root{
     /* defined colours */
-    --SLATE; #434455;
+    --SLATE: #434455;
     --IRIS: #4D5AE5;
     --NAVY-BLUE: #2E2F42;
     --CLOUD: #F4F4FD;
@@ -88,7 +88,6 @@ footer{
 .studio-section-header > button{
     border-radius: 4px;
     background-color: var(--IRIS);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-weight: 500;
     color: white;
 }
@@ -114,6 +113,5 @@ footer{
 .portfolio-section-nav button:hover{
     border-radius: 4px;
     background-color: var(--OCEAN);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     color: white;
 }

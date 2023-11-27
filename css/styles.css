@@ -63,8 +63,12 @@ h3{
     text-decoration: none;
     color: var(--IRIS);
 }
+.logo-nav:link,
+.logo-footer:link{
+    text-decoration: none;
+}
 .logo-nav span{
-    color: var(--SLATE);
+    color: var(--NAVY-BLUE);
 }
 .logo-footer span{
     color: white;
@@ -88,7 +92,6 @@ footer{
 .studio-section-header{
     background-color: var(--NAVY-BLUE);
     color: white;
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
 }

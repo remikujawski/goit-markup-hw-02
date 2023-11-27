@@ -5,7 +5,7 @@
     --NAVY-BLUE: #2E2F42;
     --CLOUD: #F4F4FD;
     --CORNFLOWER: #E7E9FC;
-    --OCEAN, #404BBF;
+    --OCEAN: #404BBF;
 }
 
 body{
@@ -99,4 +99,21 @@ footer{
 .studio-section-team li{
     background-color: white;
 }
-.studio-section-team
+/* portfolio section */
+
+.portfolio-section-list li{
+    border: 1px solid var(--CORNFLOWER);
+    background-color: white;
+}
+.portfolio-section-nav button{
+    order-radius: 4px;
+    border: 1px solid var(--CORNFLOWER);
+    background-color: var(--CLOUD);
+    color: var(--IRIS);
+}
+.portfolio-section-nav button:hover{
+    border-radius: 4px;
+    background-color: var(--OCEAN);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    color: white;
+}

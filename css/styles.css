@@ -57,6 +57,8 @@ h3{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--IRIS);
@@ -91,7 +93,6 @@ footer{
     font-weight: 700;
 }
 .studio-section-header > button{
-    border-radius: 4px;
     background-color: var(--IRIS);
     font-weight: 500;
     color: white;

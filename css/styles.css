@@ -52,18 +52,23 @@ h3{
     color: var(--IRIS);
 }
 
-nav > a,
-footer > a{
+.logo-nav,
+.logo-footer{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
     text-decoration: none;
-}
-nav > a span,
-footer > a span{
     color: var(--IRIS);
 }
+.logo-nav span{
+    color: var(--SLATE);
+}
+.logo-footer span{
+    color: white;
+}
+
+
 nav > a{
     color: var(--NAVY-BLUE);
 }
@@ -105,13 +110,11 @@ footer{
     background-color: white;
 }
 .portfolio-section-nav button{
-    order-radius: 4px;
     border: 1px solid var(--CORNFLOWER);
     background-color: var(--CLOUD);
     color: var(--IRIS);
 }
 .portfolio-section-nav button:hover{
-    border-radius: 4px;
     background-color: var(--OCEAN);
     color: white;
 }

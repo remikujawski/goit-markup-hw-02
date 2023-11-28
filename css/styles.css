@@ -109,6 +109,10 @@ footer{
     color: var(--CLOUD);
 }
 
+.text-footer{
+    letter-spacing: 0.02em;
+}
+
 
 /* studio section */
 

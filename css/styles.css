@@ -44,7 +44,7 @@ h3{
 /* header & footers sections */
 
 
-.link-contact{
+.link-address{
     text-decoration: none;
     color: var(--SLATE);
     font-style: normal;
@@ -58,10 +58,11 @@ h3{
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.link-contact:hover,
-.link-contact:active,
-.link-nav:hover,
-.link-nav:active{
+
+.link-address .link:hover,
+.link-address .link:active,
+.link-nav .link:hover,
+.link-nav .link:active{
     color: var(--OCEAN);
 }
 
@@ -76,13 +77,15 @@ h3{
     text-decoration: none;
     color: var(--IRIS);
 }
+
 .link{
     text-decoration: none;
 }
-.link:hover,
+
+/* .link:hover,
 .link:active{
     color: var(--OCEAN);
-}
+} */
 
 .logo-nav span{
     color: var(--NAVY-BLUE);

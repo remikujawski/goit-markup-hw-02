@@ -194,7 +194,7 @@ footer{
 
 /* portfolio section */
 
-.portfolio-section-list li{
+/* .portfolio-section-list li{
     border: 1px solid var(--CORNFLOWER);
     background-color: white;
 }
@@ -206,7 +206,7 @@ footer{
 .portfolio-section-nav button:hover{
     background-color: var(--OCEAN);
     color: white;
-}
+} */
 
 
 .button-portfolio-section{
@@ -236,5 +236,4 @@ footer{
 .p-item-portfolio-section{
     letter-spacing: 0.02em;
     color: var(--SLATE);
-    
 }

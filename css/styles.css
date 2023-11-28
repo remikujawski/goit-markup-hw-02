@@ -126,18 +126,18 @@ footer{
     font-size: 56px;
     font-weight: 700;
 }
-.studio-section-1 > button{
-    background-color: var(--IRIS);
-    font-weight: 500;
-    color: white;
-}
+
 .heading-studio-section-1{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
-
+.button-studio-section-1{
+    background-color: var(--IRIS);
+    font-weight: 500;
+    color: white;
+}
 
 .studio-section-team{
     background-color: var(--CLOUD);

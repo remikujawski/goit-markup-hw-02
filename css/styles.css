@@ -88,8 +88,9 @@ h3{
 .logo-nav span{
     color: var(--NAVY-BLUE);
 }
-.logo-footer span{
-    color: white;
+
+.logo-color{
+    color: var(--CLOUD);
 }
 
 .address{

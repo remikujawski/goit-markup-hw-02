@@ -232,3 +232,9 @@ footer{
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
 }
+
+.p-item-portfolio-section{
+    letter-spacing: 0.02em;
+    color: var(--SLATE);
+    
+}

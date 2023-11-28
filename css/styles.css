@@ -154,6 +154,17 @@ footer{
 .studio-section-team li{
     background-color: white;
 }
+
+.studio-section-socond{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.item-studio-section-second{
+    letter-spacing: 0.02em;
+}
+
+
 /* portfolio section */
 
 .portfolio-section-list li{

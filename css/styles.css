@@ -143,7 +143,7 @@ footer{
     font-family: 'Roboto', sans-serif;
 }
 .button-studio-section-first:hover,
-.button-studio-section-first:active{
+.button-studio-section-first:focus{
     background-color: var(--OCEAN);
 }
 

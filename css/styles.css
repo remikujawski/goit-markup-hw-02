@@ -45,24 +45,20 @@ h3{
 
 
 .link-address{
-    text-decoration: none;
     color: var(--SLATE);
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 .link-nav{
-    text-decoration: none;
     color: var(--NAVY-BLUE);
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 
-.link-address .link:hover,
-.link-address .link:active,
-.link-nav .link:hover,
-.link-nav .link:active{
+.link:hover,
+.link:active{
     color: var(--OCEAN);
 }
 
@@ -78,9 +74,9 @@ h3{
     color: var(--IRIS);
 }
 
-.link{
+/* .link{
     text-decoration: none;
-}
+} */
 
 /* .link:hover,
 .link:active{

@@ -170,6 +170,12 @@ footer{
 
 }
 
+.heading-studio-section-third{
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
 /* portfolio section */
 
 .portfolio-section-list li{

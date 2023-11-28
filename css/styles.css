@@ -135,8 +135,16 @@ footer{
 }
 .button-studio-section-first{
     background-color: var(--IRIS);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     font-weight: 500;
     color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.button-studio-section-first:hover,
+.button-studio-section-first:active{
+    color: var(--OCEAN);
 }
 
 .studio-section-team{

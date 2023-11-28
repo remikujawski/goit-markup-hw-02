@@ -120,18 +120,18 @@ footer{
 
 /* studio section */
 
-.studio-section-header{
+.studio-section-1{
     background-color: var(--NAVY-BLUE);
     color: white;
     font-size: 56px;
     font-weight: 700;
 }
-.studio-section-header > button{
+.studio-section-1 > button{
     background-color: var(--IRIS);
     font-weight: 500;
     color: white;
 }
-.studio-section-heading{
+.heading-studio-section-1{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;

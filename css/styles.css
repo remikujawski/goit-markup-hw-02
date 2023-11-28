@@ -176,6 +176,22 @@ footer{
     text-transform: capitalize;
 }
 
+.heading-studio-section-team{
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.heading-item-studio-section-team{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.p-item-studio-section-team{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
 /* portfolio section */
 
 .portfolio-section-list li{

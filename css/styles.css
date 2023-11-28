@@ -160,10 +160,15 @@ footer{
     letter-spacing: 0.02em;
 }
 
-.item-studio-section-second{
+.p-studio-section-second{
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
+.heading-studio-section-second{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 
+}
 
 /* portfolio section */
 

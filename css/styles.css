@@ -57,8 +57,10 @@ h3{
     letter-spacing: 0.02em;
 }
 
-.link:hover,
-.link:active{
+.link{
+    text-decoration: none;
+}
+.link:hover{
     color: var(--OCEAN);
 }
 

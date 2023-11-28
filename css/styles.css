@@ -207,3 +207,20 @@ footer{
     background-color: var(--OCEAN);
     color: white;
 }
+
+
+.button-portfolio-section{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--IRIS);
+    background-color: var(--CLOUD);
+}
+
+.button-portfolio-section:hover,
+.button-portfolio-section:focus{
+    color: white;
+    background-color: var(--OCEAN);
+}

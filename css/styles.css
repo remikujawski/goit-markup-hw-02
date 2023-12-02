@@ -143,4 +143,11 @@ body{
 .portfolio-section .item-button:focus{
     color: white;
     background-color: var(--OCEAN);
-} 
+}
+.portfolio-section .sub-heading{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: inherit;
+}

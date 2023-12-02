@@ -38,14 +38,16 @@ body{
     font-family: var(--RALEWAY), sans-serif;;
     font-size: 18px;
     font-weight: 800;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
+    line-height: 1.17;
     text-transform: uppercase;
 }
 
-.header .link-nav{color: var(--NAVY-BLUE);}
 .logo-header .logo-color{color: var(--NAVY-BLUE);}
 .logo-footer .logo-color{color: var(--CLOUD);}
+.header .link-nav{
+    font-weight: 500;
+    color: var(--NAVY-BLUE);
+}
 
 .footer{
     background-color: var(--NAVY-BLUE);

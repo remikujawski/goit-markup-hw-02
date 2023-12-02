@@ -28,7 +28,6 @@ body{
     color: inherit;
 }
 .address{font-style: normal;}
-.link:hover{cursor: pointer;}
 
 /* HEADER FOOTER */
 
@@ -61,9 +60,10 @@ body{
     color: var(--NAVY-BLUE);
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px; /* 111.111% */
+    line-height: 1.11
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 .heading{
     color: var(--NAVY-BLUE);
@@ -101,6 +101,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: white;
+    cursor: pointer;
 }
 .studio-section-first .button:hover,
 .studio-section-first .button:focus{

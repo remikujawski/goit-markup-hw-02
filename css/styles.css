@@ -45,8 +45,9 @@ body{
 .logo-header .logo-color{color: var(--NAVY-BLUE);}
 .logo-footer .logo-color{color: var(--CLOUD);}
 .header .link-nav{
-    font-weight: 500;
     color: var(--NAVY-BLUE);
+    font-weight: 500;
+    letter-spacing: 0.03em;
 }
 
 .footer{
@@ -72,7 +73,9 @@ body{
 }
 
 .header .link-nav:hover,
-.header .link-nav:focus{
+.header .link-nav:focus,
+.header .link-address:hover,
+.header .link-address:focus{
     color: var(--OCEAN);
 }
 

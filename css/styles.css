@@ -28,7 +28,7 @@ body{
     color: inherit;
 }
 .address{font-style: normal;}
-
+.link:hover{cursor: pointer;}
 
 /* HEADER FOOTER */
 
@@ -89,10 +89,23 @@ body{
 .main-heading{
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px; /* 107.143% */
-    letter-spacing: 1.12px;    
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
 }
-.studio-section-first .button{background: var(--IRIS);}
+.studio-section-first .button{
+    background: var(--IRIS);
+    font-family: var(--ROBOTO), sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: white;
+}
+.studio-section-first .button:hover,
+.studio-section-first .button:focus{
+    background-color: var(--OCEAN);
+}
 
 /* SECTION SECOND */
 

@@ -27,10 +27,10 @@ body{
     text-decoration: none;
     color: inherit;
 }
+.address{font-style: normal;}
 
 
 /* HEADER FOOTER */
-
 
 .logo-header,
 .logo-footer{
@@ -43,6 +43,7 @@ body{
     text-transform: uppercase;
 }
 
+.header .link-nav{color: var(--NAVY-BLUE);}
 .logo-header .logo-color{color: var(--NAVY-BLUE);}
 .logo-footer .logo-color{color: var(--CLOUD);}
 
@@ -50,14 +51,6 @@ body{
     background-color: var(--NAVY-BLUE);
     color: var(--CLOUD);
 }
-
-.header .link{
-    font-family: Roboto;
-    font-weight: 500;
-    letter-spacing: 0.32px;
-    font-style: normal;
-}
-.header .link-nav{color: var(--NAVY-BLUE);}
 
 /* SECTIONS DEFAULT */
 .section-heading{
@@ -74,6 +67,11 @@ body{
     font-weight: 500;
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
+}
+
+.header .link-nav:hover,
+.header .link-nav:focus{
+    color: var(--OCEAN);
 }
 
 /* SECTION FIRST */

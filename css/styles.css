@@ -39,6 +39,7 @@ body{
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -47,7 +48,7 @@ body{
 .header .link-nav{
     color: var(--NAVY-BLUE);
     font-weight: 500;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 
 .footer{

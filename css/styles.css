@@ -56,7 +56,8 @@ body{
 }
 
 /* SECTIONS DEFAULT */
-.section-heading{
+.section-heading,
+.portfolio-heading{
     color: var(--NAVY-BLUE);
     font-size: 36px;
     font-weight: 700;
@@ -80,6 +81,12 @@ body{
     color: var(--OCEAN);
 }
 
+.button,
+.item-button{
+    font-family: var(--ROBOTO), sans-serif;
+    cursor: pointer;
+}
+
 /* SECTION FIRST */
 
 .studio-section-first{
@@ -94,14 +101,12 @@ body{
     text-align: center;
 }
 .studio-section-first .button{
-    background: var(--IRIS);
-    font-family: var(--ROBOTO), sans-serif;
+    background-color: var(--IRIS);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: white;
-    cursor: pointer;
 }
 .studio-section-first .button:hover,
 .studio-section-first .button:focus{
@@ -123,3 +128,19 @@ body{
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
 }
+
+/* SECTION PORTFOLIO */
+
+.portfolio-section .item-button{
+    font-weight: 500;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: 0.04em;
+    color: var(--IRIS);
+    background-color: var(--CLOUD);
+}
+.portfolio-section .item-button:hover,
+.portfolio-section .item-button:focus{
+    color: white;
+    background-color: var(--OCEAN);
+} 

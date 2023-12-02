@@ -149,5 +149,5 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: inherit;
+    color: var(--NAVY-BLUE);
 }
